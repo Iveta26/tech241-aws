@@ -25,7 +25,7 @@ Amazon Web Services, Inc. is a subsidiary of Amazon that provides on-demand clou
 
 ![region](region.jpg)
 
-2. Selecting existing key pair
+2. Getting the private key and selecting existing key pair
 
 
 3. Selecting correct image 
@@ -35,3 +35,12 @@ Amazon Web Services, Inc. is a subsidiary of Amazon that provides on-demand clou
    
 After creating it once, we can re-use it
 ![region](securityGroup.jpg)
+
+5. Stop instance to stop the VM, terminate instance to deleted the VM
+
+
+### Automating Sparta app using AWS
+
+Key difference: IP address is now dynamic. The IP will have to be changed with every launch.
+
+![region](dynamicIP.jpg)
