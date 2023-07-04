@@ -48,6 +48,12 @@ Key difference: IP address is now dynamic. The IP will have to be changed with e
 
 ### What is DevOps?
 
-DevOps focuses on communication between development and operations team to get a viable product for business quickly and efficiently. The processes are automated to make the life cycle of product release as smooth and quick as possible.
+DevOps focuses on communication between development and operations team to get a viable product for business quickly and efficiently. The processes are automated to make the life cycle of product release as smooth and quick as possible. DevOps brings together the skills, processes, and tools together from both development and operations teams to bridge the gap between them.
+
+#### Benefits of DevOps
+
+There are three primary categories of benefits for DevOps: technical benefits, cultural benefits, and business benefits. The technical benefits include reduced complexity, continuous delivery, and faster problem resolution. DevOps practitioners typically deploy higher-quality code faster than traditional siloed teams.
+
+The cultural benefits are more productive and efficient teams, and happier customers. On the business end, the benefits include greater collaboration and trust between team members, which results in faster delivery and stable operating environments.
 
 ![region](whatIsDevOps.jpg)
