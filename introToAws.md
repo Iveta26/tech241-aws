@@ -4,6 +4,7 @@
 
 Amazon Web Services, Inc. is a subsidiary of Amazon that provides on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered, pay-as-you-go basis.
 
+<br />
 
 ### Azure vs AWS
 
@@ -18,6 +19,9 @@ Amazon Web Services, Inc. is a subsidiary of Amazon that provides on-demand clou
     - Launch vs create VM
     - Delete vs terminate VM
     - SHH key vs key pairs
+
+
+<br />
 
 ### Creating EC2 (VM)
 
@@ -39,6 +43,8 @@ After creating it once, we can re-use it
 5. Stop instance to stop the VM, terminate instance to deleted the VM
 
 
+<br />
+
 ### Automating Sparta app using AWS
 
 Key difference: IP address is now dynamic. The IP will have to be changed with every launch, we use **private IP** so we have a static IP address
@@ -55,6 +61,8 @@ Key difference: IP address is now dynamic. The IP will have to be changed with e
 
 2. Launch the VM. Script is run with VM launch
 
+<br />
+
 ### Creating AMI
 
 AMI - amazon machine image. Stores reference to the snapshot of the VM disk (maiking a copy of a VM).
@@ -68,6 +76,8 @@ AMI - amazon machine image. Stores reference to the snapshot of the VM disk (mai
 
 ![instance](launchInstance.jpg)
 
+
+<br />
 
 ### Cloudwatch monitoring
 
@@ -98,6 +108,7 @@ Alarm will be set off as the conditions for the metric are triggered
 
 ![metric](alarm.jpg)
 
+<br />
 
 ### What is DevOps?
 
