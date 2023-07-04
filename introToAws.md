@@ -44,3 +44,8 @@ After creating it once, we can re-use it
 Key difference: IP address is now dynamic. The IP will have to be changed with every launch.
 
 ![region](dynamicIP.jpg)
+
+
+### What is DevOps?
+
+![region](whatIsDevOps.jpg)
