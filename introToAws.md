@@ -48,16 +48,16 @@ Key difference: IP address is now dynamic. The IP will have to be changed with e
 
 #### User Data
 
-We paste our working and tested script into User Image so that VM runs it automatically. This is done in Advanced details -> User data
+We paste our working and tested script into User Image so that VM runs it automatically. This is done while creating a VM in Advanced details -> User data
 
 
 ![user data](userData.jpg)
 
 ### Creating AMI
 
-AMI - amazon machine image. Stores reference to the snapshot of the VM disk.
+AMI - amazon machine image. Stores reference to the snapshot of the VM disk (maiking a copy of a VM).
 
-1. Have a VM we went to create AMI from
+1. Have a VM we want to create AMI from
 2. Create AMI by Actions -> Image and templates -> Create image
 
 ![user data](creatingAMI.jpg)
