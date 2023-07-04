@@ -48,10 +48,12 @@ Key difference: IP address is now dynamic. The IP will have to be changed with e
 
 #### User Data
 
-We paste our working and tested script into User Image so that VM runs it automatically. This is done while creating a VM in Advanced details -> User data
+1. We paste our working and tested script into User Image so that VM runs it automatically. This is done while creating a VM in Advanced details -> User data
 
 
 ![user data](userData.jpg)
+
+2. Launch the VM. Script is run with VM launch
 
 ### Creating AMI
 
@@ -65,6 +67,37 @@ AMI - amazon machine image. Stores reference to the snapshot of the VM disk (mai
 3. Create exact copy of VM using the AMI by clicking "Launch instance from AMI"
 
 ![instance](launchInstance.jpg)
+
+
+### Cloudwatch monitoring
+
+#### Setting up a dashboard
+
+Monitoring -> Manage detailed monitoring -> Enable -> Add to dashboard
+
+Create new
+
+![instance](newDash.jpg)
+
+
+#### Creating alert 
+
+1. Open the CloudWatch console at https://console.aws.amazon.com/cloudwatch/
+2. In the navigation pane, choose Alarms, All Alarms
+3. Choose Create alarm
+4. Choose Select metric
+5. Select GetDashboard CloudWatch metric
+
+![metric](getDash.jpg)
+
+6. Set conditions for the metric
+7. Set notifications
+
+Alarm will be set off as the conditions for the metric are triggered 
+
+
+![metric](alarm.jpg)
+
 
 ### What is DevOps?
 
