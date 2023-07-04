@@ -65,7 +65,7 @@ Key difference: IP address is now dynamic. The IP will have to be changed with e
 
 ### Creating AMI
 
-AMI - amazon machine image. Stores reference to the snapshot of the VM disk (maiking a copy of a VM).
+AMI - amazon machine image. Stores reference to the snapshot of the VM disk (maiking a copy of a VM). These are faster and cheaper to setup run than VMs.
 
 1. Have a VM we want to create AMI from
 2. Create AMI by Actions -> Image and templates -> Create image
