@@ -41,14 +41,21 @@ After creating it once, we can re-use it
 
 ### Automating Sparta app using AWS
 
-Key difference: IP address is now dynamic. The IP will have to be changed with every launch.
+Key difference: IP address is now dynamic. The IP will have to be changed with every launch, we use **private IP** so we have a static IP address
 
 ![region](dynamicIP.jpg)
 
 
+#### User Data
+
+We paste our working and tested script into User Image so that VM runs it automatically. This is done in Advanced details -> User data
+
+
+![user data](userData.jpg)
+
 ### What is DevOps?
 
-DevOps focuses on communication between development and operations team to get a viable product for business quickly and efficiently. The processes are automated to make the life cycle of product release as smooth and quick as possible. DevOps brings together the skills, processes, and tools together from both development and operations teams to bridge the gap between them.
+DevOps focuses on communication between development and operations team to get a viable product for business quickly and efficiently. The processes are automated to make the life cycle of product release as smooth and quick as possible for the end users. DevOps brings together the skills, processes, and tools together from both development and operations teams to bridge the gap between them.
 
 #### Benefits of DevOps
 
