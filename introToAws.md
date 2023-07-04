@@ -48,4 +48,6 @@ Key difference: IP address is now dynamic. The IP will have to be changed with e
 
 ### What is DevOps?
 
+DevOps focuses on communication between development and operations team to get a viable product for business quickly and efficiently. The processes are automated to make the life cycle of product release as smooth and quick as possible.
+
 ![region](whatIsDevOps.jpg)
