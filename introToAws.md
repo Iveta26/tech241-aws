@@ -62,7 +62,7 @@ AMI - amazon machine image. Stores reference to the snapshot of the VM disk (mai
 
 ![user data](creatingAMI.jpg)
 
-3. Create exact copy of VM using the AMI by clicking "Launch instannce from AMI"
+3. Create exact copy of VM using the AMI by clicking "Launch instance from AMI"
 
 ![instance](launchInstance.jpg)
 
