@@ -63,6 +63,8 @@ Benefits
 
 
 4. Create **Load Balancer**
+
+
 ![user data](ASGimg/ASG4.jpg)
 
 ![user data](ASGimg/ASG5.jpg)
@@ -70,7 +72,7 @@ Benefits
 ![user data](ASGimg/ASG7.jpg)
 
 
-5. Create **Target Group** (our VM instances are in it)
+1. Create **Target Group** (our VM instances are in it)
    
 ![user data](ASGimg/ASG8.jpg)
 
