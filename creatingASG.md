@@ -9,7 +9,9 @@ Benefits
   - up/down - getting moved to another VM that's bigger
 
 
-## Creating ASG
+<br />
+
+## From VM to ASG
 
 1. Create **VM** with **User Data**
 2. Create **AMI** from that **VM**
@@ -22,6 +24,64 @@ Benefits
       4. **max: 3**         - maximum amount of VMs
 
 
+<br />
+
+### Creating Launch Template
+
+1. "Instances" -> "Launch Templates"
+   
+![user data](ASGimg/LT1.jpg)
+
+2. Add the AMI we want to creat the Launch Template from
+   
+![user data](ASGimg/LT2.jpg)
+
+
+3. Adding **User Data** with only commands to run the scrip, not to download data. The data has already been downloaded by AMI, to make our LT run faster, we omit scripts downloading data again.
+   
+![user data](ASGimg/LT3.jpg)
+
+
+<br />
+
+### Creating ASG
+
+1. "Auto Scaling" -> "Auto Scaling Groups"
+   
+![user data](ASGimg/ASG1.jpg)
+
+2. Choose the template to make ASG from
+
+
+![user data](ASGimg/ASG2.jpg)
+
+
+3. Select **Availability Zones** for **high availability**
+
+
+![user data](ASGimg/ASG3.jpg)
+
+
+4. Create **Load Balancer**
+![user data](ASGimg/ASG4.jpg)
+
+![user data](ASGimg/ASG5.jpg)
+
+![user data](ASGimg/ASG7.jpg)
+
+
+5. Create **Target Group** (our VM instances are in it)
+   
+![user data](ASGimg/ASG8.jpg)
+
+
+6. Select desired, minimum, maximum amount of VMs
+   
+![user data](ASGimg/ASG9.jpg)
+
+7. Pick CPU load value
+
+![user data](ASGimg/ASG10.jpg)
 
 
 
