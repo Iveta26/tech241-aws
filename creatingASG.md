@@ -2,11 +2,16 @@
 
 ASG is a solution for dealing with CPU load going too high. Not dealing with it efficantly will make our website crash, ASG deals with it automatically. There are more ways too deal with too much load on our VMs, but ASG is so far the best.
 
+
+
+![autoscaling](ASGimg/atoscaling.jpg)
+
 Benefits
 - High availability - multiple EC2 instances in different data centers in that region. A region will usually have 3 availability zones
 - Scaling
   - out/in - more instances of VMs are created
   - up/down - getting moved to another VM that's bigger
+
 
 
 <br />
