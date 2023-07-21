@@ -92,3 +92,7 @@ Benefits
 
 
 
+```
+ export DB_HOST=mongodb://111.222.333.444:27017/posts 
+ ```
+

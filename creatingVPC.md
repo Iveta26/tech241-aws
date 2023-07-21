@@ -5,4 +5,4 @@ Using Virtual Public Cloud allows everyone in that VNet to access your data. Tha
 
 In pur VPC, we can manage who can access which subnets.
 
-![user data](vpcDiagram.png)
+![vpc diagram](VPCimg/vpcDiagram.png)
